@@ -14,6 +14,8 @@ import java.util.List;
 public class PostController {
 private PostService postService;
 
+// Learning github first push from intelliJ
+
     public PostController(PostService postService) {
         this.postService = postService;
     }
