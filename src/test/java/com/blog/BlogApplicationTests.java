@@ -10,4 +10,12 @@ class BlogApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	public void printTable() {
+		int tableNum = 2;
+		for (int i =1; i<=10; i++) {
+			System.out.println(tableNum*i);
+		}
+	}
+
 }
